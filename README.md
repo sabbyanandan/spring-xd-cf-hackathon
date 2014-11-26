@@ -17,8 +17,8 @@ Following are few approaches:
 * Measure the API activities by routing the events to a pub/sub broker like 'Kafka' or 'Rabbit' and have Spring XD consume from them directly.
 * Trigger the scaling protocol based on a timed-event through 'Trigger' source module. _(example: trigger the auto-scale on 11/27/2014 at midnight)_
 
-Sample Streams
---------------
+Spring XD -> Streams
+--------------------
 
 |Stream Name | Stream Definition
 |--------------|--------
