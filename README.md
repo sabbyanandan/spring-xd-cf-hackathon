@@ -1,13 +1,11 @@
 Data-driven Dynamic Deployment using Spring XD
 ==============================================
 
-Spring XD based data-driven dynamic deployment of [Cloud Foundry](http://www.pivotal.io/platform-as-a-service/pivotal-cf) apps.
-
-[Spring XD](https://github.com/spring-projects/spring-xd) is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export. The Spring XD project is an open source Apache 2 License licenced project whose goal is to tackle big data complexity. Much of the complexity in building real-world big data applications is related to integrating many disparate systems into one cohesive solution across a range of use-cases.
+[Spring XD](https://github.com/spring-projects/spring-xd) is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export. The Spring XD project is an open source Apache 2 License licenced project whose goal is to tackle big data complexity.
 
 Idea
 ----
-You have Apps running in Cloud Foundry and you'd like to automatically scale them on-demand. A demand can be throughput based or may be derived from metrics or perhaps you would want to adjust sclaing based on a certain day/time. _(example: Thanksgiving, Christmas, ..)_
+You have Apps running in [Cloud Foundry](http://www.pivotal.io/platform-as-a-service/pivotal-cf) and you'd like to automatically scale them on-demand. A demand can be throughput based or may be derived from metrics or perhaps you would want to adjust sclaing based on a certain day/time. _(example: Thanksgiving, Christmas, ..)_
 
 Spring XD fits perfectly for this requirement. The [source](https://github.com/spring-projects/spring-xd/wiki/Sources) and [sink](https://github.com/spring-projects/spring-xd/wiki/Sinks) modules could expedite operationalizing data-driven dynamic deployments seamlessly. You can get this up and running out-of-the-box and the important fact is that you don't write any code.
 
