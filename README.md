@@ -1,5 +1,5 @@
-spring-xd-cf-hackathon
-======================
+Data-driven Dynamic Deployment using Spring XD
+==============================================
 
 Spring XD based data-driven dynamic deployment of [Cloud Foundry](http://www.pivotal.io/platform-as-a-service/pivotal-cf) apps.
 
