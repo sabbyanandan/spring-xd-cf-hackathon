@@ -22,6 +22,6 @@ Spring XD -> Streams
 |--------------|--------
 HTTP Stream | `stream create httpstream --definition "http | transform --script=postRequest.groovy | log" --deploy`
 Rabbit Stream | `stream create --name rabbitstream --definition "rabbit --queues='scale-out' | transform --script=postRequest.groovy | counter" --deploy`
-Trigger Stream | `stream create --name triggerstream --definition "trigger --date='11/27/14 00:00:00' | transform --script=postRequest.groovy | counter" --deploy1`
+Trigger Stream | `stream create --name triggerstream --definition "trigger --date='11/27/14 00:00:00' | transform --script=postRequest.groovy | counter" --deploy`
 
 _(Assumption is that you have Spring XD [running](https://github.com/spring-projects/spring-xd/wiki/Getting-Started) either in singlenode or distributed mode. You can then deploy the above streams.)_
