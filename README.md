@@ -5,7 +5,7 @@ Spring XD based data-driven dynamic deployment for CF apps.
 
 Idea
 ----
-You have Apps running in CF and you'd like to automatically scale them on-demand. A demand can be throughput based or may be derived from metrics or perhaps you would want to adjust sclaing based on a certain day/time (ex: Thanksgiving, Christmas, ..)
+You have Apps running in [Cloud Foundry](http://www.pivotal.io/platform-as-a-service/pivotal-cf) and you'd like to automatically scale them on-demand. A demand can be throughput based or may be derived from metrics or perhaps you would want to adjust sclaing based on a certain day/time (ex: Thanksgiving, Christmas, ..)
 
 Spring XD fits perfectly for this requirement. The [source](https://github.com/spring-projects/spring-xd/wiki/Sources) and [sink](https://github.com/spring-projects/spring-xd/wiki/Sinks) modules could expedite operationalizing data-driven dynamic deployments seamlessly. You can get this up and running out-of-the-box and the important fact is that you don't write any code.
 
